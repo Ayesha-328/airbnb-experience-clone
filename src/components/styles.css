@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+svg:hover{
+    cursor: pointer;
+}
+
+.navbar{
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 75px;
+    box-shadow: 0 4px 10px rgba(171, 168, 168, 0.4);
+}
+.main-menu{
+    color: gray;
+    display: flex;
+    list-style: none;
+}
+.main-menu .menu-items{
+    padding: 5px 12px;
+}
+.main-menu .menu-items:hover{
+    cursor: pointer;
+    background-color: rgba(162, 160, 160, 0.216);
+    border-radius: 25px;
+}
+.side-menu{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    
+}
+.side-menu span{
+    font-weight: 500;
+    padding-right: 10px;
+}
+.active{
+    color: #222222;
+}
+.sub-side-menu{
+    margin-left: 12px;
+    width: 70px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 0 0 5px 2px rgba(128, 128, 128, 0.377);
+}
+.container{
+    padding: 25px;
+    
+
+}
+
+.grid-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 700;
+    margin: 70px 20px;  
+}
+
+#photo-grid{
+    height: 400px;
+}
+.main-heading{
+    font-size: 36px;
+    font-weight: 500;
+}
+.content{
+    width: 330px;
+    font-size: 16px;
+    font-weight: light;
+}
+/*********** Card Styling *************/
+.main-container{
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-container{
+    padding: 25px;
+    width: 250px;
+    position: relative;
+}
+.card-image{
+    width: 235px;
+    height: 280px;
+    border-radius: 9px;
+}
+#heart{
+    position: absolute;
+    top: 33px;
+    right: 17px;
+}
+.tag{
+    width: 71px;
+    text-align: center;
+    font-size: 11.24px;
+    text-transform: uppercase;
+    background-color: #fff;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    padding: 5px;
+}
+.rating ,.details ,.person{
+    font-size: 14px;
+    padding: 0 5px;
+}
+.details, .person{
+    color: gray;
+}
+.desc{
+    color: #222222;
+    font-size: 14px;
+    font-weight: light;
+    padding: 5px 0;
+}
+.price{
+    font-size: 14px;
+    font-weight: bolder;
+}
+.person{
+    font-weight: lighter;
+}
+/* image 12 */
+
+
+
